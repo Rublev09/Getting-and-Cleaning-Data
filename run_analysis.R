@@ -23,7 +23,7 @@ activities <- read.table("activity_labels.txt")
 y_data[, 1] <- activities[y_data[, 1], 2]
 names(y_data) <- "activity"
 
-# 4. Column name with appropriate label and create a total_data dataset
+# 4. Column name with appropriate label and create a total_data dataset (consists of 563 columns and 10299 rows)
 names(subject_data) <- "subject"
 total_data <- cbind(x_data, y_data, subject_data)
 

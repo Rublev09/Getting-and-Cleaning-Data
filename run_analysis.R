@@ -1,3 +1,4 @@
+# The code takes for granted all the data is present in the same folder, un-compressed and without names altered.
 library(plyr)
 
 # 1. Merge training + test datasets ---> subject_train/test datasets ----> subject_data

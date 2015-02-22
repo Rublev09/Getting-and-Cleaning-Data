@@ -10,6 +10,17 @@ The R script (run_analysis.R) performs the following step as required:
 
 The steps to clean up the data are described, in detail, in run_analysis.R.
 
+    x_train, y_train, x_test, y_test, subject_train and subject_test contains the data from the downloaded files.
+    x_data, y_data and subject_data merge the previous datasets.
+    features contains the correct names for the x_data dataset.
+    activities contains the correct names for the activity names.
+    total_data merges x_data, y_data and subject_data in a unique dataset.
+    averages_data contains the final output. 
+    ddply() [plyr package] is used. References: Hadley Wickham (2011). The Split-Apply-Combine Strategy for Data Analysis. Journal of Statistical Software, 40(1), 1-29. http://www.jstatsoft.org/v40/i01/.
+    
+
+
+
 VARIABLES
 
     tBodyAcc-XYZ
